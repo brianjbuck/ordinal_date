@@ -256,6 +256,3 @@ class OrdinalDate:
     @property
     def last(self):
         return self.DayOfWeek(ordinal=Ordinal.last)
-
-
-ordinal_date = OrdinalDate()

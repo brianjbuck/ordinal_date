@@ -2,7 +2,7 @@
 from datetime import date
 from unittest import TestCase
 
-from ordinal_date.ordinal_date import (
+from ordinal_date import (
     ordinal_date,
     OrdinalDateError,
     Ordinal,
