@@ -26,7 +26,7 @@ setup(
     packages=find_packages(exclude=["*.tests"]),
     include_package_data=True,
     platforms="any",
-    classifiers = [
+    classifiers=[
         "Programming Language :: Python",
         "Development Status :: 4 - Beta",
         "Natural Language :: English",
@@ -35,5 +35,5 @@ setup(
         "License :: OSI Approved :: MIT Software License",
         "Operating System :: OS Independent",
         "Topic :: Software Development :: Libraries :: Python Modules",
-        ]
+    ]
 )
