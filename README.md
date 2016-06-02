@@ -39,6 +39,9 @@ Nice one!
 
 `ordinaldate` was developed and has only been tested under Python3.5 but other than the requirement for Enum34 there is nothing special that should prevent it from running on Python2x.
 
+# Installation
+
+    pip install ordinaldate
 
 # API
 
