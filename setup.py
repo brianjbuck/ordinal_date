@@ -4,7 +4,7 @@
 import sys
 from setuptools import setup, find_packages
 
-import ordinal_date
+import ordinaldate
 
 
 requirements = []
@@ -15,9 +15,9 @@ if python_version.major < 3 or python_version.minor < 4:
 
 
 setup(
-    name="ordinal_date",
-    version=ordinal_date.__version__,
-    url="http://github.com/brianjbuck/ordinal_date/",
+    name="ordinaldate",
+    version=ordinaldate.__version__,
+    url="http://github.com/brianjbuck/ordinaldate/",
     license="MIT Software License",
     author="Brian Buck",
     install_requires=requirements,

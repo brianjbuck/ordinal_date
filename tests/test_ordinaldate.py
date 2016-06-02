@@ -2,8 +2,8 @@
 from datetime import date
 from unittest import TestCase
 
-from ordinal_date import (
-    ordinal_date,
+from ordinaldate import (
+    ordinaldate,
     OrdinalDateError,
     Ordinal,
     Weekday,
@@ -139,12 +139,12 @@ class TestOrdinalDate(TestCase):
         ]
 
         # Build up every possible way to call the syntactic sugar way of creating dates
-        # EX: `ordinal_date.first.monday.january` through `ordinal_date.last.sunday.december`
+        # EX: `ordinaldate.first.monday.january` through `ordinaldate.last.sunday.december`
         for ordinal in ordinals:
             for weekday in weekdays:
                 for month in months:
                     try:
-                        test_date = eval("ordinal_date.{}.{}.{}".format(ordinal, weekday, month))
+                        test_date = eval("ordinaldate.{}.{}.{}".format(ordinal, weekday, month))
                         base_date = get_by_values(
                             getattr(Ordinal, ordinal),
                             getattr(Weekday, weekday.title()),

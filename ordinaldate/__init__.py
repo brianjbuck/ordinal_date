@@ -1,5 +1,5 @@
 # coding=utf-8
-from .ordinal_date import (
+from .ordinaldate import (
     get_by_values,
     is_week_end,
     Month,
@@ -15,11 +15,11 @@ __all__ = [
     "get_by_values",
     "is_week_end",
     "Month",
-    "ordinal_date",
+    "ordinaldate",
     "Ordinal",
     "OrdinalDateError",
     "Weekday"
 ]
 
 
-ordinal_date = OrdinalDate()
+ordinaldate = OrdinalDate()
