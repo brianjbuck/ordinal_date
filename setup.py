@@ -18,6 +18,7 @@ setup(
     name="ordinaldate",
     version=ordinaldate.__version__,
     url="http://github.com/brianjbuck/ordinaldate/",
+    download_url="https://github.com/brianjbuck/ordinaldate/tarball/1.0.0/",
     license="MIT Software License",
     author="Brian Buck",
     install_requires=requirements,
@@ -28,11 +29,12 @@ setup(
     platforms="any",
     classifiers=[
         "Programming Language :: Python",
+        "Programming Language :: Python :: 3.4",
+        "Programming Language :: Python :: 3.5",
         "Development Status :: 4 - Beta",
         "Natural Language :: English",
-        "Environment :: Web Environment",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: MIT Software License",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ]
